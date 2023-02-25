@@ -20,6 +20,7 @@ module.exports = {
       template: './src/index.html',
     }),
   ],
+  devtool: 'source-map',
   devServer: {
     port: 3000,
   },
